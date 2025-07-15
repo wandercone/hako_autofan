@@ -46,6 +46,10 @@ python fan_control.py [--debug] [--dry-run]
 
 All settings are managed via `config.yaml`, which must reside in the same directory as the script.
 
+| ![fan_curve_example.png](docs/fan_curve_example.png) | 
+|:--:| 
+| *Fan Curve Examples* |
+
 ## Notification System
 
 Alerts for high temperatures are sent using Unraid's notification system by default. A cooldown period (30 minutes) prevents repeated alerts for the same drive. The notification method can be changed or extended in the script (e.g., integration with Discord).
